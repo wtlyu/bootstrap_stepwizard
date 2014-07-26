@@ -1,0 +1,112 @@
+/*!
+ * StepWizard v0.3
+ *
+ * Copyright 2014 eastpiger
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+.nav.nav-stepwizard{
+	*zoom: 1;
+    border-width:1px;
+    border-style:solid;
+    border-color:#D4D4D4;
+    width: 100%;
+    margin-left: -1px;
+    background-color: #F9F9F9;
+}
+.nav.nav-stepwizard > li:first-child{
+	width:127px;
+}
+.nav.nav-stepwizard > li{
+	background-color: #EDEDED;
+	height: 46px;
+	width:150px;
+	overflow: visible;
+}
+.nav.nav-stepwizard > li > .nav-stepwizard-shelter{
+	position: absolute;
+	margin: 0px;
+	height: 46px;
+	width:150px;
+	z-index: 4;
+}
+.nav.nav-stepwizard > li > span > .badge{
+	margin:0px 10px 0px 15px;
+}
+.nav.nav-stepwizard > li > span{
+	position: absolute;
+	margin: 0px auto 0px 23px;
+	font-size: 16px;
+	line-height: 46px;
+}
+.nav.nav-stepwizard > li:first-child > span{
+	margin: 0px auto 0px 0px;
+}
+.nav.nav-stepwizard > li > .nav-stepwizard-dec{
+	position: absolute;
+	margin: 0px 0px 0px 150px;
+	height: 0px;
+	width:0px;
+    border-width:23px;
+    border-style:solid;
+    border-color:transparent transparent transparent #EDEDED;
+    z-index: 3;
+}
+.nav.nav-stepwizard > li > .nav-stepwizard-dec-bg{
+	position: absolute;
+	margin: 0px 0px 0px 151px;
+	height: 0px;
+	width:0px;
+    border-width:23px;
+    border-style:solid;
+    border-color:transparent transparent transparent #D4D4D4;
+    z-index: 2;
+}
+.nav.nav-stepwizard > li:first-child > .nav-stepwizard-dec{
+	margin: 0px 0px 0px 127px;
+}
+.nav.nav-stepwizard > li:first-child > .nav-stepwizard-dec-bg{
+	margin: 0px 0px 0px 128px;
+}
+
+.nav.nav-stepwizard > li.active{
+	background-color:#F1F6FC;
+}
+.nav.nav-stepwizard > li.active > span > .badge{
+  	background-color: #3a87ad;
+}
+.nav.nav-stepwizard > li.active > span{
+	color:#3A8DC5;
+}
+.nav.nav-stepwizard > li.active > .nav-stepwizard-dec{
+    border-color:transparent transparent transparent #F1F6FC;
+}
+
+.nav.nav-stepwizard > li.complete{
+	background-color:#F3F4F5;
+}
+.nav.nav-stepwizard > li.complete > span > .badge{
+	background-color: #468847;
+}
+.nav.nav-stepwizard > li.complete > span{
+	color:#50885C;
+}
+.nav.nav-stepwizard > li.complete > .nav-stepwizard-dec{
+    border-color:transparent transparent transparent #F3F4F5;
+}
+
+.nav-stepwizard:before,
+.nav-stepwizard:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.nav-stepwizard:after {
+  clear: both;
+}
+
+.nav-stepwizard > li {
+  float: left;
+}
