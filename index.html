@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Bootstrap stepwizard by eastpiger</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Bootstrap stepwizard</h1>
+        <h2>bootstrap_stepwizard is a StepWizard with bootstrap</h2>
+        <a href="https://github.com/eastpiger/bootstrap_stepwizard" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="bootstrap_stepwizard" class="anchor" href="#bootstrap_stepwizard"><span class="octicon octicon-link"></span></a>bootstrap_stepwizard</h1>
+
+<p>bootstrap_stepwizard is a StepWizard with bootstrap</p>
+
+<p>&lt;!DOCTYPE html&gt;
+
+    </p>
+        Bootstrap_StepWizard<br><br><div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <a href="#">Bootstrap StepWizard</a>
+                            <ul>
+<li><a href="#Introduce">Introduce</a></li>
+                                <li><a href="#Download">Download</a></li>
+                                <li><a href="#Install">Install</a></li>
+                                <li><a href="#Usage">Usage</a></li>
+                                <li><a href="#JavaScript">JavaScript</a></li>
+                                <li><a href="#About">About</a></li>
+                                <li><a href="introcn.html">中文</a></li>
+                            </ul>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <h1>
+<a name="bootstrap-stepwizard" class="anchor" href="#bootstrap-stepwizard"><span class="octicon octicon-link"></span></a>Bootstrap StepWizard</h1>
+                        <p>bootstrap_stepwizard is a StepWizard with bootstrap</p>
+                        <p>
+                            <a href="https://github.com/eastpiger/bootstrap_stepwizard">
+                              Visit GitHub
+                            </a><br><a href="http://www.eastpiger.com">
+                              Visit My Homepage
+                            </a>
+                        </p>
+                    </div>
+                    <h2>
+<a name="introduce" class="anchor" href="#introduce"><span class="octicon octicon-link"></span></a>Introduce</h2>
+                    <p>Sometimes I want to use the tabs of bootstrap just like a step wizard . There used to be many project to do it such as Fuel UX and many others but difficult to use .</p>
+                    <p>Fortunately , Bootstrap_StepWizard is a new project within 3kb files to do it easily just like using Bootstrap_Tabs.js . like this :</p>
+                    <br><br><ul>
+<li>1Home</li>
+                        <li>2Profile</li>
+                        <li>3Messages</li>
+                        <li>4Settings</li>
+                    </ul>
+<div>
+                        <div>Home is a home.</div>
+                        <div>Profile can see the profile.</div>
+                        <div>Message allows you to send messages.</div>
+                        <div>Settings ... just as you know.</div>
+                    </div>
+                    <br><br><div>
+                        Previous
+                        Next
+                        Index
+                        jump to index 3
+                    </div>
+                    <h2>
+<a name="download" class="anchor" href="#download"><span class="octicon octicon-link"></span></a>Download</h2>
+                    <p>This project contains two major file : <em>bootstrap_stepwizard.js</em> and <em>bootstrap_stepwizard.css</em> . You can also use its packed edition : <em>bootstrap_stepwizard.min.js</em> and <em>bootstrap_stepwizard.min.css</em> .</p>
+                    <p>You can download the project via github : <a href="https://github.com/eastpiger/bootstrap_stepwizard"></a><a href="https://github.com/eastpiger/bootstrap_stepwizard">https://github.com/eastpiger/bootstrap_stepwizard</a></p>
+                    <h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+                    <p>This project has reliance on <em>bootstrap</em> and <em>Jquery</em> and you should install them firstly .</p>
+                    <p>To install <em>Bootstrap_StepWizard</em> , you should type this in your webpage :</p>
+                    <pre>
+&lt;link href="bootstrap_stepwizard.css" rel="stylesheet" media="screen"&gt;
+&lt;script src="bootstrap_stepwizard.js"&gt;&lt;/script&gt;</pre>
+                    <h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+                    <p>To show <em>Bootstrap_StepWizard</em> in your page , you can just type this in your webpage :</p>
+                    <pre>
+&lt;ul class="nav nav-stepwizard" id="myStepWizard_show"&gt;
+    &lt;li class="complete"&gt;&lt;span href="#home" data-toggle="tab"&gt;&lt;span class="badge"&gt;1&lt;/span&gt;Home&lt;/span&gt;&lt;/li&gt;
+    &lt;li class="active"&gt;&lt;span href="#profile" data-toggle="tab"&gt;&lt;span class="badge"&gt;2&lt;/span&gt;Profile&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span href="#messages" data-toggle="tab"&gt;&lt;span class="badge"&gt;3&lt;/span&gt;Messages&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span href="#settings" data-toggle="tab"&gt;&lt;span class="badge"&gt;4&lt;/span&gt;Settings&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="tab-content"&gt;
+    &lt;div class="tab-pane active fade in" id="home"&gt;Home is a home.&lt;/div&gt;
+    &lt;div class="tab-pane fade" id="profile"&gt;Profile can see the profile.&lt;/div&gt;
+    &lt;div class="tab-pane fade" id="messages"&gt;Message allows you to send messages.&lt;/div&gt;
+    &lt;div class="tab-pane fade" id="settings"&gt;Settings ... just as you know.&lt;/div&gt;
+&lt;/div&gt;</pre>
+                    <p><strong>It is similer to use <em>bootstrap-tab.js</em> . Just replace <code>nav-tabs</code> into <code>nav-stepwizard</code> .</strong></p>
+                    <br><p>If you don't wnat users to click the button ( just like the example above ) , Just add a class <code>nav-stepwizard_unabled</code> .</p>
+                    <pre>
+&lt;ul class="nav nav-stepwizard nav-stepwizard_unabled" id="myStepWizard_show"&gt;</pre>
+                    <h2>
+<a name="javascript" class="anchor" href="#javascript"><span class="octicon octicon-link"></span></a>JavaScript</h2>
+                    <p>This project alse contains some js functions . you can use them in js or Jquery .</p>
+                    <br><h4>
+<a name="stepwizard_prev-function" class="anchor" href="#stepwizard_prev-function"><span class="octicon octicon-link"></span></a><em>stepwizard_prev function</em>
+</h4>
+                    <pre>
+function stepwizard_prev(handle)</pre>
+                    <p>example:</p>
+                    <pre>
+$("#pre_show").click(function(){
+    stepwizard_prev($("#myStepWizard_show"));
+}); </pre>
+                    <p><strong>It returns -1 when the active tab is the first .</strong></p>
+                    <br><h4>
+<a name="stepwizard_next-function" class="anchor" href="#stepwizard_next-function"><span class="octicon octicon-link"></span></a><em>stepwizard_next function</em>
+</h4>
+                    <pre>
+function stepwizard_next(handle)</pre>
+                    <p>example:</p>
+                    <pre>
+$("#next_show").click(function(){
+    stepwizard_next($("#myStepWizard_show"));
+});</pre>
+                    <p><strong>It returns -1 when the active tab is the last .</strong></p>
+                    <br><h4>
+<a name="stepwizard_to-function" class="anchor" href="#stepwizard_to-function"><span class="octicon octicon-link"></span></a><em>stepwizard_to function</em>
+</h4>
+                    <pre>
+function stepwizard_to(handle,index)</pre>
+                    <p>example:</p>
+                    <pre>
+$("#index_jump").click(function(){
+    stepwizard_to($("#myStepWizard_show"),3);
+});</pre>
+                    <p><strong>It returns -1 when the target index is unabled .</strong></p>
+                    <br><h4>
+<a name="stepwizard_index-function" class="anchor" href="#stepwizard_index-function"><span class="octicon octicon-link"></span></a><em>stepwizard_index function</em>
+</h4>
+                    <pre>
+function stepwizard_index(handle)</pre>
+                    <p>example:</p>
+                    <pre>
+$("#index_show").click(function(){
+    alert(stepwizard_index($("#myStepWizard_show")));
+});</pre>
+                    <p><strong>It returns the active index .</strong></p>
+                    <h2>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h2>
+                    <p>Welcome to my homepage at <a href="http://www.eastpiger.com"></a><a href="http://www.eastpiger.com">www.eastpiger.com</a> .</p>
+                    <br>
+</div>
+            </div>
+        </div>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/eastpiger/bootstrap_stepwizard/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/eastpiger/bootstrap_stepwizard/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/eastpiger/bootstrap_stepwizard"></a> is maintained by <a href="https://github.com/eastpiger">eastpiger</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
