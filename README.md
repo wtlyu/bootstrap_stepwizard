@@ -1,9 +1,3 @@
-bootstrap_stepwizard
-====================
-
-bootstrap_stepwizard is a StepWizard with bootstrap
-
-<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -13,31 +7,14 @@ bootstrap_stepwizard is a StepWizard with bootstrap
 		<link href="bootstrap_stepwizard.css" rel="stylesheet" media="screen">
 	</head>
 	<body data-spy="scroll">		
-		<div class="container">
-			<div class="row">
-				<div class="span12">
-					<div class="navbar navbar-inverse" data-target=".navbar" style="position:fixed;margin:10px 0px auto 0px;width:940px;box-shadow:0px 0px 5px 0px rgba(150,150,150,0.8);z-index:999;">
-						<div class="navbar-inner">
-							<a class="brand" href="#">Bootstrap StepWizard</a>
-							<ul class="nav">
-								<li><a href="#Introduce">Introduce</a></li>
-								<li><a href="#Download">Download</a></li>
-								<li><a href="#Install">Install</a></li>
-								<li><a href="#Usage">Usage</a></li>
-								<li><a href="#JavaScript">JavaScript</a></li>
-								<li><a href="#About">About</a></li>
-								<li><a href="introcn.html">中文</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="container" style="margin-top:60px;">
 			<div class="row">
 				<div class="span12">
 					<div class="hero-unit">
-						<h1>Bootstrap StepWizard</h1>
+						<h1>Bootstrap StepWizard</h1>			
+						<h2><a href="http://eastpiger.github.io/bootstrap_stepwizard/" class="btn btn-primary btn-large">
+						  Visit Project Homepage
+						</a></h2>
 						<p>bootstrap_stepwizard is a StepWizard with bootstrap</p>
 						<p>
 							<a href="https://github.com/eastpiger/bootstrap_stepwizard" class="btn btn-primary btn-large">
